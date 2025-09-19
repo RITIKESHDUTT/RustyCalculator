@@ -1,2 +1,2 @@
 # RustyCalculator
-Basic calculator on Rust
+Basic Cli calculator on Rust
