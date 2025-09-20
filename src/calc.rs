@@ -45,8 +45,8 @@ impl Node {
 }
 
 pub struct RustyCalculator {
-    pub root: Rc<RefCell<Node>>,
-    pub current: Rc<RefCell<Node>>,
+    root: Rc<RefCell<Node>>,
+    current: Rc<RefCell<Node>>,
     history: Vec<Rc<RefCell<Node>>>,
     history_index: usize,
     snapshots: Vec<CalculatorSnapshot>,  // Store complete calculator states
