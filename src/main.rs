@@ -1,6 +1,6 @@
-use calc_base::calc::RustyCalculator;
+use calc_base::calc::{RustyCalculator, CalculationError};
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+fn main() -> Result<(), CalculationError> {
     match RustyCalculator::start() {
         Ok(_calc) => println!("Calculator finished successfully."),
         Err(e) => println!("Calculator error: {}", e),
