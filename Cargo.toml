@@ -1,9 +1,5 @@
 [package]
-<<<<<<< HEAD
 name = "rusty_calculator"
-=======
-name = "calc_base"
->>>>>>> origin/main
 version = "0.1.0"
 edition = "2024"
 
